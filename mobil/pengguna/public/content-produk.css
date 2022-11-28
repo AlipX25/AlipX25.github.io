@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    padding-top: 120px;
+}
+.logo{
+    max-width: 50px;
+}
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #d4443a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background-color: #f5f7f9;
+    font-size: "Open Sans",sans-serif ;
+    font-family: "Poppins", sans-serif;
+}
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 30%;
+    float: left;
+    margin: 30px 5px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+
+}.box h4 {
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: 15px;
+    line-height: 28px;
+    height: 90px;
+    overflow: hidden;
+}
+.box a {
+    display: inline-block;
+    color: #fff;
+    background-color: #2196f3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.box a:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.box.showContent p {
+    height: auto;
+}
+.box.showContent a.readmore-btn{
+    background-color: red;
+}
+ /* scroll item */
+
+ .wrapper {
+    max-height: 720px;
+    margin-top: 70px;
+    display: flex;
+    overflow-x: auto;
+ }
+ .wrapper::-webkit-scrollbar {
+    width: 10px;
+ }
+ .wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .wrapper::-webkit-scrollbar-thumb {
+    background: rgb(216, 211, 211);
+  }
+.wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgb(158, 158, 158);
+  }  
+ .wrapper .item {
+    min-width: 300px;
+    line-height: 10 0px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+ }
+.item img {
+    width: 140px;
+    margin-top: 70px;
+}
+
+.kotak {
+    background-color: #ddd;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 13px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
